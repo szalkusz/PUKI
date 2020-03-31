@@ -8,7 +8,7 @@ It can be called via arguments. Below you can see usage informations.
 
 ## Functions
 * blur: 35 pixel quarterly average (very slow, i know)
-* sharpen 3x3 convulation matrix
+* sharpen: 3x3 convulation matrix
 * lighten: make the image 2x brighter
 * darken: make the image 2x darker
 * grayscale: make the image grayscale
