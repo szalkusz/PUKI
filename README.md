@@ -13,13 +13,16 @@ It can be called via arguments. Below you can see usage informations.
 
 ## How to use
 It can be called via arguments:
-> puki < sourceimage.ppm > < destinationimage.ppm > < operation >
+> `puki <sourceimage.ppm> <destinationimage.ppm> <operation>`
 
-where <b> < sourceimage.ppm > </b> is the name of the image what we would like to modify, <b> < destinationimage.ppm > </b> is the name of the modified image what we will save and <b> < operation > </b> is the name of the function we would like to perform.
+where **`<sourceimage.ppm>`** is the name of the image what we would like to modify, **`<destinationimage.ppm>`** is the name of the modified image what we will save and **`<operation>`** is the name of the function we would like to perform.
   
 ### Example
-> puki first.ppm second.ppm grayscale
+> `puki first.ppm second.ppm grayscale`
   
 ## What if an error occured
 PUKI returns with 1 and an error message if something cannot be done. Otherwise it responds 0.
+
+## External sources
+PUKI uses `debugmalloc` to find memory leaks during development. You can find it [HERE](https://infoc.eet.bme.hu/debugmalloc/).
 
