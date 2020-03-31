@@ -1,6 +1,8 @@
 # PUKI - Picture Utility King
 Picture Utility King - simple image processing tool written in C as a homework at Budapest University of Technology and Economics
 
+![PUKI Logo](/PUKI_title_img.jpg)
+
 The program works with PPM images to make the code very simple. It's platform independent, tested on OS X El Capitan and Win 10.
 It can be called via arguments. Below you can see usage informations.
 
