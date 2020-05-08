@@ -37,9 +37,9 @@ int main(int argc, char *argv[])
        //sscanf("grayscale", "%s", &operation);
     }
     else{
-       sscanf(argv[1], "%s", &source);
-       sscanf(argv[2], "%s", &destination);
-       sscanf(argv[3], "%s", &operation);
+       sscanf(argv[1], "%s", source);
+       sscanf(argv[2], "%s", destination);
+       sscanf(argv[3], "%s", operation);
     }
 
     Image *image = ReadImg(source);
